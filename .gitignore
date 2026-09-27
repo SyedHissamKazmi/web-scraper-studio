@@ -1,4 +1,29 @@
+# Virtual environments
 .venv/
-*.xlsx
-*.db
+venv/
+env/
+
+# Python
 __pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Data outputs
+*.xlsx
+*.csv
+*.json
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
